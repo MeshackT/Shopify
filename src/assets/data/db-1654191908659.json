@@ -1,0 +1,68 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "headphone - 1",
+      "category_id": 1,
+      "description": "Product of a phone details",
+      "price": 100,
+      "is_available": false,
+      "rating": 4
+    },
+    {
+      "id": 2,
+      "name ": "Laptop - 1",
+      "category_id": 2,
+      "description": "Product of a Laptop details",
+      "price": 10000,
+      "is_available": true,
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "name ": "GetForce - 1",
+      "category_id": 3,
+      "description": "Product of a graphics detail details",
+      "price": 20000,
+      "is_available": true,
+      "rating": 5
+    },
+    {
+      "id": 4,
+      "name ": "Laptop - 1",
+      "category_id": 4,
+      "description": "Product of a Laptop details",
+      "price": 10000,
+      "is_available": true,
+      "rating": 5
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "categoryName": "Jam"
+    },
+    {
+      "id": 2,
+      "categoryName": "lucas"
+    },
+    {
+      "id": 3,
+      "categoryName": "NVidia - 1"
+    },
+    {
+      "id": 4,
+      "categoryName": "Generation"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
