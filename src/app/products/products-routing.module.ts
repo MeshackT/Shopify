@@ -11,11 +11,11 @@ import { ViewProductComponent } from './view-product/view-product.component';
 const routes: Routes = [
   { path: '', component: ViewAllProductComponent },
   { path: 'create-product', component: AddProductComponent },
-  { path: 'search', component: ViewAllByProductsByCategoryComponent },
+  { path: 'category/:id', component: ViewAllByProductsByCategoryComponent },
   { path: 'search-date', component: ViewAllByProductsByDateComponent },
   { path: 'update-product/:id', component: UpdateProductComponent},
   { path: 'delete-product/:id', component: DeleteProductComponent },
-  { path: 'view-product/:id', component: ViewProductComponent },
+  { path: 'product/:id', component: ViewProductComponent },
 
 ];
 

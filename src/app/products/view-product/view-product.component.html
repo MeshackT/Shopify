@@ -1,17 +1,12 @@
 <!--card-->
 
 <div class="card card-outline-secondary my-4">
-  <div class="card-header">
-    Product ID: {{ productId }}
-  </div>
   <img src="https://images.pexels.com/photos/302743/pexels-photo-302743.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" />
 
   <div class="card-body">
-    <h3 class="card-title">Winter is here</h3>
-    <p>sfhdsfkjdkfhdjfhkdljfhnkjdhfjdhskdfhdjfhkjjdfkjdhfkjhdskjfhkjdhfjdghfljdfhjahsdfkjlfjksghfkjdshfkjdghfjkhdkjfsfhkjdsfhkjdshfkjdshfkjd</p>
-    <hr />
-    <p>sfhdsfkjdkfhdjfhkdljfhnkjdhfjdhskdfhdjfhkjjdfkjdhfkjhdskjfhkjdhfjdghfljdfhjahsdfkjlfjksghfkjdshfkjdghfjkhdkjfsfhkjdsfhkjdshfkjdshfkjd</p>
-
-    <a href="#" class="btn btn-success">Leave the review</a>
+    <h3 class="card-title">{{ productDetails.productName }}</h3>
+    <p>{{ productDetails.description }}</p>
+    
+    <a href="" class="btn btn-success">Leave the review</a>
   </div>
 </div>

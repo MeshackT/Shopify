@@ -2,5 +2,14 @@
   padding-bottom:10px;
   padding-top: 10px;
 }
+#allItems {
+  margin-top: 10px;
+  background-color: #808345;
+  color: White
+}
+.header{
 
+    text-align:center;
+
+}
 

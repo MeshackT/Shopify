@@ -2,65 +2,95 @@
   "product": [
     {
       "id": 1,
-      "name": "headphone - 1",
-      "category_id": 1,
-      "description": "Product of a phone details",
-      "price": 100,
+      "productName": "Dell E7270",
+      "categoryId": 1,
+      "description": "Product of a Lapteop details",
+      "price": 10000,
       "is_available": false,
-      "rating": 4
+      "rating": 4,
+      "productImg": "http://localhost:42000/assets/images/dell_1.jpg"
 
     },
     {
       "id": 2,
-      "name ": "Laptop - 1",
-      "category_id": 2,
+      "productName": "HP M2",
+      "categoryId": 2,
       "description": "Product of a Laptop details",
-      "price": 10000,
+      "price": 8000,
       "is_available": true,
-      "rating": 5
+      "rating": 5,
+      "productImg": "http://localhost:42000/assets/images/HP.jpg"
+
 
     },
     {
       "id": 3,
-      "name ": "GetForce - 1",
-      "category_id": 3,
-      "description": "Product of a graphics detail details",
-      "price": 20000,
+      "productName": "Dell 2",
+      "categoryId": 1,
+      "description": "Product of a Laptop details",
+      "price": 9000,
       "is_available": true,
-      "rating": 5
+      "rating": 5,
+      "productImg": "http://localhost:42000/assets/images/dell_2.jpeg"
+
 
     },
     {
       "id": 4,
-      "name ": "Laptop - 1",
-      "category_id": 4,
+      "productName": "Acer",
+      "categoryId": 3,
       "description": "Product of a Laptop details",
       "price": 10000,
       "is_available": true,
-      "rating": 5
+      "rating": 5,
+      "productImg": "http://localhost:42000/assets/images/acer.jpg"
+
+
+    },
+    {
+      "id": 5,
+      "productName": "Mecer ",
+      "categoryId": 4,
+      "description": "Product of a Acer details",
+      "price": 20000,
+      "is_available": true,
+      "rating": 5,
+      "productImg": "http://localhost:42000/assets/images/mecer.jpg"
+
+
+    },
+    {
+      "id": 6,
+      "productName": "Mecer",
+      "categoryId": 4,
+      "description": "Product of a Mecer details",
+      "price": 10000,
+      "is_available": true,
+      "rating": 5,
+      "productImg": "http://localhost:42000/assets/images/mecer.jpg"
+
 
     }
 
   ],
-
-
   "category":
   [
     {
       "id": 1,
-      "categoryName": "Jam"
+      "categoryName": "HP Laptops"
+
     },
     {
       "id": 2,
-      "categoryName": "lucas"
+      "categoryName": "Dell Laptops"
     },
     {
       "id": 3,
-      "categoryName": "NVidia - 1"
+      "categoryName": "Acer Laptops"
     },
     {
       "id": 4,
-      "categoryName": "Generation"
+      "categoryName": "Mecer Laptop"
     }
 
   ],
