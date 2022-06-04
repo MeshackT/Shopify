@@ -20,8 +20,8 @@ export class ViewProductComponent implements OnInit {
 
     this.activatedRoute.params.subscribe(
       data => {
-        console.log(data);
         this.productId = data['id'];
+        console.log(data);
 
     })
   }
