@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-add-product',
@@ -11,5 +12,7 @@ export class AddProductComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  addNewProduct(addProductForm) { }
 
 }

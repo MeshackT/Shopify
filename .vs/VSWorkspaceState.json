@@ -6,12 +6,11 @@
     "\\src\\app\\orders",
     "\\src\\app\\products",
     "\\src\\app\\products\\view-all-by-products-by-category",
-    "\\src\\app\\products\\view-all-product",
-    "\\src\\app\\products\\view-product",
     "\\src\\app\\site-framework",
+    "\\src\\app\\site-framework\\header",
     "\\src\\assets",
     "\\src\\assets\\data"
   ],
-  "SelectedNode": "\\src\\app\\site-framework\\sidebar\\sidebar.component.html",
+  "SelectedNode": "\\src\\app\\site-framework\\header\\header.component.html",
   "PreviewInSolutionExplorer": false
 }
